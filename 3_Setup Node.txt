@@ -1,0 +1,18 @@
+2022-01-26T17:42:25.0199791Z ##[group]Run actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561
+2022-01-26T17:42:25.0200100Z with:
+2022-01-26T17:42:25.0200277Z   node-version: 16.13.x
+2022-01-26T17:42:25.0200477Z   cache: npm
+2022-01-26T17:42:25.0200669Z   always-auth: false
+2022-01-26T17:42:25.0200863Z   check-latest: false
+2022-01-26T17:42:25.0201180Z   token: ***
+2022-01-26T17:42:25.0201356Z ##[endgroup]
+2022-01-26T17:42:25.1991917Z Found in cache @ /opt/hostedtoolcache/node/16.13.2/x64
+2022-01-26T17:42:25.2043210Z [command]/opt/hostedtoolcache/node/16.13.2/x64/bin/npm config get cache
+2022-01-26T17:42:25.8606987Z /home/runner/.npm
+2022-01-26T17:42:27.9606891Z Received 0 of 61030189 (0.0%), 0.0 MBs/sec
+2022-01-26T17:42:28.6680130Z Received 61030189 of 61030189 (100.0%), 34.1 MBs/sec
+2022-01-26T17:42:28.6681332Z Cache Size: ~58 MB (61030189 B)
+2022-01-26T17:42:28.6721968Z [command]/usr/bin/tar --use-compress-program zstd -d -xf /home/runner/work/_temp/fe5531d5-7519-4ebc-8bd8-e62e46e37bdd/cache.tzst -P -C /home/runner/work/docs/docs
+2022-01-26T17:42:29.1448689Z Cache restored successfully
+2022-01-26T17:42:29.1551537Z 
+2022-01-26T17:42:29.1562432Z Cache restored from key: node-cache-Linux-npm-c2f3a3424e05c28cf3a91505d9ce1ba7b64b9cc76e469193bb3bbbd27d37f80d

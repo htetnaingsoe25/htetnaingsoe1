@@ -1,0 +1,1208 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <!-- RD version: 0.42.0  -->
+    <!--  filepage  -->
+  <meta charset="utf-8">
+          
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <!-- meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" -->
+
+
+	<title>File: modules_and_classes.rdoc [Ruby 3.1.0]</title>
+  <link rel="stylesheet" href="../../css/associated.css" type="text/css" >
+  <link rel="stylesheet" href="../../css/inuit.css" >
+  <link rel="stylesheet" href="../../css/grid.inuit.css" >
+  <link rel="stylesheet" href="../../css/2011.css" type="text/css" >
+  <link rel="stylesheet" href="../../css/rdoc.css" type="text/css" >
+    <link rel="stylesheet" href="../../css/carbon17.css" type="text/css" >
+
+  <!-- rel_prefix  = '../..' -->
+    
+  <!-- rel_prefix = '../..'   asset_rel_prefix = '../..'  --> 
+  <link rel="stylesheet" href="css/extra.css" type="text/css" >
+  <script  src="/js/extra.js"  ></script>
+
+
+</head>
+
+<body class="file">
+<div id='actionbar' >
+<div class='wrapper'>
+<ul class='grids g0'></ul></div>
+
+
+
+</div> <!-- end action bar -->
+<!-- VERSION HEADER for 3.1.0 NOT FOUND -->          <div class='wrapper'>
+<!-- carbon17 added here 2017-09-09 -->
+ 
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <header>
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../../index.html">Home</a>
+          <a href="../../index.html#classes">Classes</a>
+          <a href="../../index.html#methods">Methods</a>
+        </h3>
+      </div>
+      </header>
+		</div>
+
+		<div id="project-metadata">
+			
+			
+			<div id="fileindex-section" class="section project-section">
+				<h3 class="section-header">Files</h3>
+				<ul>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/minitest-5_15_0/History_rdoc.html">History.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/minitest-5_15_0/README_rdoc.html">README.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rake-13_0_6/History_rdoc.html">History.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rake-13_0_6/README_rdoc.html">README.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rake-13_0_6/doc/command_line_usage_rdoc.html">command_line_usage.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rake-13_0_6/doc/glossary_rdoc.html">glossary.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rake-13_0_6/doc/proto_rake_rdoc.html">proto_rake.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rake-13_0_6/doc/rakefile_rdoc.html">rakefile.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rake-13_0_6/doc/rational_rdoc.html">rational.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/context_rdoc.html">context.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/rdoc/child_rdoc.html">child.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/rdoc/document_rdoc.html">document.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/rdoc/element_rdoc.html">element.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/rdoc/node_rdoc.html">node.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/rdoc/parent_rdoc.html">parent.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/tocs/child_toc_rdoc.html">child_toc.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/tocs/document_toc_rdoc.html">document_toc.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/tocs/element_toc_rdoc.html">element_toc.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/tocs/master_toc_rdoc.html">master_toc.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/tocs/node_toc_rdoc.html">node_toc.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_bundle/gems/rexml-3_2_5/doc/rexml/tasks/tocs/parent_toc_rdoc.html">parent_toc.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../_test/rdoc/test_ja_rdoc.html">test.ja.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../COPYING_ja.html">COPYING.ja</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../README_EXT.html">README.EXT</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../README_EXT_ja.html">README.EXT.ja</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../aclocal_m4.html">aclocal.m4</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../autogen_sh.html">autogen.sh</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../configure_ac.html">configure.ac</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/bsearch_rdoc.html">bsearch.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/bug_triaging_rdoc.html">bug_triaging.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/case_mapping_rdoc.html">case_mapping.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/contributing_rdoc.html">contributing.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/arguments/io_rdoc.html">io.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/common/col_sep_rdoc.html">col_sep.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/common/quote_char_rdoc.html">quote_char.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/common/row_sep_rdoc.html">row_sep.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/generating/force_quotes_rdoc.html">force_quotes.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/generating/quote_empty_rdoc.html">quote_empty.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/generating/write_converters_rdoc.html">write_converters.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/generating/write_empty_value_rdoc.html">write_empty_value.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/generating/write_headers_rdoc.html">write_headers.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/generating/write_nil_value_rdoc.html">write_nil_value.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/converters_rdoc.html">converters.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/empty_value_rdoc.html">empty_value.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/field_size_limit_rdoc.html">field_size_limit.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/header_converters_rdoc.html">header_converters.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/headers_rdoc.html">headers.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/liberal_parsing_rdoc.html">liberal_parsing.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/nil_value_rdoc.html">nil_value.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/return_headers_rdoc.html">return_headers.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/skip_blanks_rdoc.html">skip_blanks.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/skip_lines_rdoc.html">skip_lines.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/strip_rdoc.html">strip.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/options/parsing/unconverted_fields_rdoc.html">unconverted_fields.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/recipes/filtering_rdoc.html">filtering.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/recipes/generating_rdoc.html">generating.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/recipes/parsing_rdoc.html">parsing.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/csv/recipes/recipes_rdoc.html">recipes.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/dig_methods_rdoc.html">dig_methods.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/documentation_guide_rdoc.html">documentation_guide.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/dtrace_probes_rdoc.html">dtrace_probes.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/extension_ja_rdoc.html">extension.ja.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/extension_rdoc.html">extension.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/globals_rdoc.html">globals.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/implicit_conversion_rdoc.html">implicit_conversion.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/keywords_rdoc.html">keywords.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/maintainers_rdoc.html">maintainers.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/marshal_rdoc.html">marshal.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/optparse/argument_converters_rdoc.html">argument_converters.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/optparse/creates_option_rdoc.html">creates_option.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/optparse/option_params_rdoc.html">option_params.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/optparse/tutorial_rdoc.html">tutorial.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/regexp_rdoc.html">regexp.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/security_rdoc.html">security.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/signals_rdoc.html">signals.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/standard_library_rdoc.html">standard_library.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax_rdoc.html">syntax.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/assignment_rdoc.html">assignment.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/calling_methods_rdoc.html">calling_methods.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/comments_rdoc.html">comments.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/control_expressions_rdoc.html">control_expressions.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/exceptions_rdoc.html">exceptions.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/literals_rdoc.html">literals.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/methods_rdoc.html">methods.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/miscellaneous_rdoc.html">miscellaneous.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/modules_and_classes_rdoc.html">modules_and_classes.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/pattern_matching_rdoc.html">pattern_matching.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/precedence_rdoc.html">precedence.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/syntax/refinements_rdoc.html">refinements.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/time/in_rdoc.html">in.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/time/mon-min_rdoc.html">mon-min.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/time/msec_rdoc.html">msec.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/time/nsec_rdoc.html">nsec.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/time/sec_rdoc.html">sec.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/time/sec_i_rdoc.html">sec_i.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/time/usec_rdoc.html">usec.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/time/year_rdoc.html">year.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../doc/time/zone_and_in_rdoc.html">zone_and_in.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../lex_c_blt.html">lex.c.blt</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../node_name_inc.html">node_name.inc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../sample/drb/README_ja_rdoc.html">README.ja.rdoc</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="../../sample/drb/README_rdoc.html">README.rdoc</a></li>
+				
+				</ul>
+			</div>
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="../../images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" ></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value="" class="quicksearch-field" >
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ARGF.html">ARGF</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ArgumentError.html">ArgumentError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Array.html">Array</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../BasicObject.html">BasicObject</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Binding.html">Binding</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Class.html">Class</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ClosedQueueError.html">ClosedQueueError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Comparable.html">Comparable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Complex.html">Complex</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Continuation.html">Continuation</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Dir.html">Dir</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ENV.html">ENV</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../EOFError.html">EOFError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Encoding.html">Encoding</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Encoding/CompatibilityError.html">Encoding::CompatibilityError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Encoding/Converter.html">Encoding::Converter</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Encoding/ConverterNotFoundError.html">Encoding::ConverterNotFoundError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Encoding/InvalidByteSequenceError.html">Encoding::InvalidByteSequenceError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Encoding/UndefinedConversionError.html">Encoding::UndefinedConversionError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../EncodingError.html">EncodingError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Enumerable.html">Enumerable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Enumerator.html">Enumerator</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Enumerator/ArithmeticSequence.html">Enumerator::ArithmeticSequence</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Enumerator/Chain.html">Enumerator::Chain</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Enumerator/Generator.html">Enumerator::Generator</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Enumerator/Lazy.html">Enumerator::Lazy</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Enumerator/Producer.html">Enumerator::Producer</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Enumerator/Yielder.html">Enumerator::Yielder</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Errno.html">Errno</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Exception.html">Exception</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../FalseClass.html">FalseClass</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Fiber.html">Fiber</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Fiber/SchedulerInterface.html">Fiber::SchedulerInterface</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../FiberError.html">FiberError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../File.html">File</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../File/File/Constants.html">File::File::Constants</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../File/File/Constants.html">File::File::Constants</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../File/Stat.html">File::Stat</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../FileTest.html">FileTest</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Float.html">Float</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../FloatDomainError.html">FloatDomainError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../FrozenError.html">FrozenError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../GC.html">GC</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../GC/Profiler.html">GC::Profiler</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Hash.html">Hash</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO.html">IO</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/Buffer.html">IO::Buffer</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/Buffer/AccessError.html">IO::Buffer::AccessError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/Buffer/AllocationError.html">IO::Buffer::AllocationError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/Buffer/InvalidatedError.html">IO::Buffer::InvalidatedError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/Buffer/LockedError.html">IO::Buffer::LockedError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/EAGAINWaitReadable.html">IO::EAGAINWaitReadable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/EAGAINWaitWritable.html">IO::EAGAINWaitWritable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/EINPROGRESSWaitReadable.html">IO::EINPROGRESSWaitReadable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/EINPROGRESSWaitWritable.html">IO::EINPROGRESSWaitWritable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/EWOULDBLOCKWaitReadable.html">IO::EWOULDBLOCKWaitReadable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/EWOULDBLOCKWaitWritable.html">IO::EWOULDBLOCKWaitWritable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/WaitReadable.html">IO::WaitReadable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IO/WaitWritable.html">IO::WaitWritable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IOError.html">IOError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../IndexError.html">IndexError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Integer.html">Integer</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Interrupt.html">Interrupt</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Kernel.html">Kernel</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../KeyError.html">KeyError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../LoadError.html">LoadError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../LocalJumpError.html">LocalJumpError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Marshal.html">Marshal</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../MatchData.html">MatchData</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Math.html">Math</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Math/DomainError.html">Math::DomainError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Method.html">Method</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Module.html">Module</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../NameError.html">NameError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../NilClass.html">NilClass</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../NoMatchingPatternError.html">NoMatchingPatternError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../NoMatchingPatternKeyError.html">NoMatchingPatternKeyError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../NoMemoryError.html">NoMemoryError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../NoMethodError.html">NoMethodError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../NotImplementedError.html">NotImplementedError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Numeric.html">Numeric</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Object.html">Object</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ObjectSpace.html">ObjectSpace</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ObjectSpace/WeakMap.html">ObjectSpace::WeakMap</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Pool.html">Pool</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Proc.html">Proc</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Process.html">Process</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Process/GID.html">Process::GID</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Process/Status.html">Process::Status</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Process/Sys.html">Process::Sys</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Process/UID.html">Process::UID</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Ractor.html">Ractor</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Ractor/ClosedError.html">Ractor::ClosedError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Ractor/Error.html">Ractor::Error</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Ractor/IsolationError.html">Ractor::IsolationError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Ractor/MovedError.html">Ractor::MovedError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Ractor/MovedObject.html">Ractor::MovedObject</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Ractor/RemoteError.html">Ractor::RemoteError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Ractor/UnsafeError.html">Ractor::UnsafeError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Random.html">Random</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Random/Formatter.html">Random::Formatter</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Range.html">Range</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RangeError.html">RangeError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Rational.html">Rational</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Refinement.html">Refinement</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Regexp.html">Regexp</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RegexpError.html">RegexpError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Ripper.html">Ripper</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RubyVM.html">RubyVM</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RubyVM/AbstractSyntaxTree.html">RubyVM::AbstractSyntaxTree</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RubyVM/AbstractSyntaxTree/Node.html">RubyVM::AbstractSyntaxTree::Node</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RubyVM/InstructionSequence.html">RubyVM::InstructionSequence</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RubyVM/MJIT.html">RubyVM::MJIT</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RubyVM/YJIT.html">RubyVM::YJIT</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RubyVM/YJIT/Block.html">RubyVM::YJIT::Block</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RubyVM/YJIT/Disasm.html">RubyVM::YJIT::Disasm</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../RuntimeError.html">RuntimeError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ScriptError.html">ScriptError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../SecurityError.html">SecurityError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Signal.html">Signal</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../SignalException.html">SignalException</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../StandardError.html">StandardError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../StopIteration.html">StopIteration</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../String.html">String</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Struct.html">Struct</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Symbol.html">Symbol</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../SyntaxError.html">SyntaxError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../SystemCallError.html">SystemCallError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../SystemExit.html">SystemExit</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../SystemStackError.html">SystemStackError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Thread.html">Thread</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Thread/Backtrace.html">Thread::Backtrace</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Thread/Backtrace/Location.html">Thread::Backtrace::Location</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Thread/ConditionVariable.html">Thread::ConditionVariable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Thread/Mutex.html">Thread::Mutex</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Thread/Queue.html">Thread::Queue</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Thread/SizedQueue.html">Thread::SizedQueue</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ThreadError.html">ThreadError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ThreadGroup.html">ThreadGroup</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Time.html">Time</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../TracePoint.html">TracePoint</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../TrueClass.html">TrueClass</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../TypeError.html">TypeError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../UnboundMethod.html">UnboundMethod</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../UncaughtThrowError.html">UncaughtThrowError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../UnicodeNormalize.html">UnicodeNormalize</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../Warning.html">Warning</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../ZeroDivisionError.html">ZeroDivisionError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="../../fatal.html">fatal</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+  <div class='adzbox'  id="azk83167">
+      
+  </div> 
+	<div id="documentation">
+		
+<h1 id="label-Modules">Modules<span><a href="#label-Modules">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Modules serve two purposes in Ruby, namespacing and mix-in functionality.</p>
+
+<p>A namespace can be used to organize code by package or functionality that separates common names from interference by other packages.  For example, the IRB namespace provides functionality for irb that prevents a collision for the common name “Context”.</p>
+
+<p>Mix-in functionality allows sharing common methods across multiple classes or modules.  Ruby comes with the <a href="../../Enumerable.html"><code>Enumerable</code></a> mix-in module which provides many enumeration methods based on the <code>each</code> method and <a href="../../Comparable.html"><code>Comparable</code></a> allows comparison of objects based on the <code>&lt;=&gt;</code> comparison method.</p>
+
+<p>Note that there are many similarities between modules and classes.  Besides the ability to mix-in a module, the description of modules below also applies to classes.</p>
+
+<h2 id="label-Module+Definition"><a href="../../Module.html"><code>Module</code></a> Definition<span><a href="#label-Module+Definition">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>A module is created using the <code>module</code> keyword:</p>
+
+<pre class="ruby"><span class="ruby-keyword">module</span> <span class="ruby-constant">MyModule</span>
+  <span class="ruby-comment"># ...</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>A module may be reopened any number of times to add, change or remove functionality:</p>
+
+<pre class="ruby"><span class="ruby-keyword">module</span> <span class="ruby-constant">MyModule</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">my_method</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">module</span> <span class="ruby-constant">MyModule</span>
+  <span class="ruby-keyword">alias</span> <span class="ruby-identifier">my_alias</span> <span class="ruby-identifier">my_method</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">module</span> <span class="ruby-constant">MyModule</span>
+  <span class="ruby-identifier">remove_method</span> <span class="ruby-value">:my_method</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>Reopening classes is a very powerful feature of Ruby, but it is best to only reopen classes you own.  Reopening classes you do not own may lead to naming conflicts or difficult to diagnose bugs.</p>
+
+<h2 id="label-Nesting">Nesting<span><a href="#label-Nesting">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Modules may be nested:</p>
+
+<pre class="ruby"><span class="ruby-keyword">module</span> <span class="ruby-constant">Outer</span>
+  <span class="ruby-keyword">module</span> <span class="ruby-constant">Inner</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>Many packages create a single outermost module (or class) to provide a namespace for their functionality.</p>
+
+<p>You may also define inner modules using <code>::</code> provided the outer modules (or classes) are already defined:</p>
+
+<pre class="ruby"><span class="ruby-keyword">module</span> <span class="ruby-constant">Outer</span><span class="ruby-operator">::</span><span class="ruby-constant">Inner</span><span class="ruby-operator">::</span><span class="ruby-constant">GrandChild</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>Note that this will raise a <code>NameError</code> if <code>Outer</code> and <code>Outer::Inner</code> are not already defined.</p>
+
+<p>This style has the benefit of allowing the author to reduce the amount of indentation.  Instead of 3 levels of indentation only one is necessary. However, the scope of constant lookup is different for creating a namespace using this syntax instead of the more verbose syntax.</p>
+
+<h2 id="label-Scope">Scope<span><a href="#label-Scope">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<h3 id="label-self"><code>self</code><span><a href="#label-self">&para;</a> <a href="#top">&uarr;</a></span></h3>
+
+<p><code>self</code> refers to the object that defines the current scope.  <code>self</code> will change when entering a different method or when defining a new module.</p>
+
+<h3 id="label-Constants">Constants<span><a href="#label-Constants">&para;</a> <a href="#top">&uarr;</a></span></h3>
+
+<p>Accessible constants are different depending on the module nesting (which syntax was used to define the module).  In the following example the constant <code>A::Z</code> is accessible from B as A is part of the nesting:</p>
+
+<pre class="ruby"><span class="ruby-keyword">module</span> <span class="ruby-constant">A</span>
+  <span class="ruby-constant">Z</span> = <span class="ruby-value">1</span>
+
+  <span class="ruby-keyword">module</span> <span class="ruby-constant">B</span>
+    <span class="ruby-identifier">p</span> <span class="ruby-constant">Module</span>.<span class="ruby-identifier">nesting</span> <span class="ruby-comment">#=&gt; [A::B, A]</span>
+    <span class="ruby-identifier">p</span> <span class="ruby-constant">Z</span> <span class="ruby-comment">#=&gt; 1</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>However, if you use <code>::</code> to define <code>A::B</code> without nesting it inside <code>A</code>, a <a href="../../NameError.html"><code>NameError</code></a> exception will be raised because the nesting does not include <code>A</code>:</p>
+
+<pre class="ruby"><span class="ruby-keyword">module</span> <span class="ruby-constant">A</span>
+  <span class="ruby-constant">Z</span> = <span class="ruby-value">1</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">module</span> <span class="ruby-constant">A</span><span class="ruby-operator">::</span><span class="ruby-constant">B</span>
+  <span class="ruby-identifier">p</span> <span class="ruby-constant">Module</span>.<span class="ruby-identifier">nesting</span> <span class="ruby-comment">#=&gt; [A::B]</span>
+  <span class="ruby-identifier">p</span> <span class="ruby-constant">Z</span> <span class="ruby-comment">#=&gt; raises NameError</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>If a constant is defined at the top-level you may preceded it with <code>::</code> to reference it:</p>
+
+<pre class="ruby"><span class="ruby-constant">Z</span> = <span class="ruby-value">0</span>
+
+<span class="ruby-keyword">module</span> <span class="ruby-constant">A</span>
+  <span class="ruby-constant">Z</span> = <span class="ruby-value">1</span>
+
+  <span class="ruby-keyword">module</span> <span class="ruby-constant">B</span>
+    <span class="ruby-identifier">p</span> <span class="ruby-operator">::</span><span class="ruby-constant">Z</span> <span class="ruby-comment">#=&gt; 0</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<h3 id="label-Methods">Methods<span><a href="#label-Methods">&para;</a> <a href="#top">&uarr;</a></span></h3>
+
+<p>For method definition documentation see the syntax documentation for methods.</p>
+
+<p><a href="../../Class.html"><code>Class</code></a> methods may be called directly.  (This is slightly confusing, but a method on a module is often called a “class method” instead of a “module method”.  See also <a href="../../Module.html#method-i-module_function"><code>Module#module_function</code></a> which can convert an instance method into a class method.)</p>
+
+<p>When a class method references a constant, it uses the same rules as referencing it outside the method as the scope is the same.</p>
+
+<p>Instance methods defined in a module are only callable when included.  These methods have access to the constants defined when they were included through the ancestors list:</p>
+
+<pre class="ruby"><span class="ruby-keyword">module</span> <span class="ruby-constant">A</span>
+  <span class="ruby-constant">Z</span> = <span class="ruby-value">1</span>
+
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">z</span>
+    <span class="ruby-constant">Z</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">include</span> <span class="ruby-constant">A</span>
+
+<span class="ruby-identifier">p</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">class</span>.<span class="ruby-identifier">ancestors</span> <span class="ruby-comment">#=&gt; [Object, A, Kernel, BasicObject]</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">z</span> <span class="ruby-comment">#=&gt; 1</span>
+</pre>
+
+<h3 id="label-Visibility">Visibility<span><a href="#label-Visibility">&para;</a> <a href="#top">&uarr;</a></span></h3>
+
+<p>Ruby has three types of visibility.  The default is <code>public</code>.  A public method may be called from any other object.</p>
+
+<p>The second visibility is <code>protected</code>.  When calling a protected method the sender must be a subclass of the receiver or the receiver must be a subclass of the sender.  Otherwise a <a href="../../NoMethodError.html"><code>NoMethodError</code></a> will be raised.</p>
+
+<p>Protected visibility is most frequently used to define <code>==</code> and other comparison methods where the author does not wish to expose an object&#39;s state to any caller and would like to restrict it only to inherited classes.</p>
+
+<p>Here is an example:</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">A</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">n</span>(<span class="ruby-identifier">other</span>)
+    <span class="ruby-identifier">other</span>.<span class="ruby-identifier">m</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">class</span> <span class="ruby-constant">B</span> <span class="ruby-operator">&lt;</span> <span class="ruby-constant">A</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">m</span>
+    <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">protected</span> <span class="ruby-value">:m</span>
+
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">class</span> <span class="ruby-constant">C</span> <span class="ruby-operator">&lt;</span> <span class="ruby-constant">B</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">a</span> = <span class="ruby-constant">A</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-identifier">b</span> = <span class="ruby-constant">B</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-identifier">c</span> = <span class="ruby-constant">C</span>.<span class="ruby-identifier">new</span>
+
+<span class="ruby-identifier">c</span>.<span class="ruby-identifier">n</span> <span class="ruby-identifier">b</span> <span class="ruby-comment">#=&gt; 1 -- C is a subclass of B</span>
+<span class="ruby-identifier">b</span>.<span class="ruby-identifier">n</span> <span class="ruby-identifier">b</span> <span class="ruby-comment">#=&gt; 1 -- m called on defining class</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">n</span> <span class="ruby-identifier">b</span> <span class="ruby-comment"># raises NoMethodError A is not a subclass of B</span>
+</pre>
+
+<p>The third visibility is <code>private</code>.  A private method may only be called from inside the owner class without a receiver, or with a literal <code>self</code> as a receiver.  If a private method is called with a receiver other than a literal <code>self</code>, a <a href="../../NoMethodError.html"><code>NoMethodError</code></a> will be raised.</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">A</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">without</span>
+    <span class="ruby-identifier">m</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">with_self</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">m</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">with_other</span>
+    <span class="ruby-constant">A</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">m</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">with_renamed</span>
+    <span class="ruby-identifier">copy</span> = <span class="ruby-keyword">self</span>
+    <span class="ruby-identifier">copy</span>.<span class="ruby-identifier">m</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">m</span>
+    <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">private</span> <span class="ruby-value">:m</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">a</span> = <span class="ruby-constant">A</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">without</span>      <span class="ruby-comment">#=&gt; 1</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">with_self</span>    <span class="ruby-comment">#=&gt; 1</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">with_other</span>   <span class="ruby-comment"># NoMethodError (private method `m&#39; called for #&lt;A:0x0000559c287f27d0&gt;)</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">with_renamed</span> <span class="ruby-comment"># NoMethodError (private method `m&#39; called for #&lt;A:0x0000559c285f8330&gt;)</span>
+</pre>
+
+<h3 id="label-alias+and+undef"><code>alias</code> and <code>undef</code><span><a href="#label-alias+and+undef">&para;</a> <a href="#top">&uarr;</a></span></h3>
+
+<p>You may also alias or undefine methods, but these operations are not restricted to modules or classes.  See the miscellaneous syntax section for documentation.</p>
+
+<h1 id="label-Classes">Classes<span><a href="#label-Classes">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Every class is also a module, but unlike modules a class may not be mixed-in to another module (or class).  Like a module, a class can be used as a namespace. A class also inherits methods and constants from its superclass.</p>
+
+<h2 id="label-Defining+a+class">Defining a class<span><a href="#label-Defining+a+class">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Use the <code>class</code> keyword to create a class:</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">MyClass</span>
+  <span class="ruby-comment"># ...</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>If you do not supply a superclass your new class will inherit from <a href="../../Object.html"><code>Object</code></a>.  You may inherit from a different class using <code>&lt;</code> followed by a class name:</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">MySubclass</span> <span class="ruby-operator">&lt;</span> <span class="ruby-constant">MyClass</span>
+  <span class="ruby-comment"># ...</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>There is a special class <a href="../../BasicObject.html"><code>BasicObject</code></a> which is designed as a blank class and includes a minimum of built-in methods.  You can use <a href="../../BasicObject.html"><code>BasicObject</code></a> to create an independent inheritance structure.  See the <a href="../../BasicObject.html"><code>BasicObject</code></a> documentation for further details.</p>
+
+<h2 id="label-Inheritance">Inheritance<span><a href="#label-Inheritance">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Any method defined on a class is callable from its subclass:</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">A</span>
+  <span class="ruby-constant">Z</span> = <span class="ruby-value">1</span>
+
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">z</span>
+    <span class="ruby-constant">Z</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">class</span> <span class="ruby-constant">B</span> <span class="ruby-operator">&lt;</span> <span class="ruby-constant">A</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">p</span> <span class="ruby-constant">B</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">z</span> <span class="ruby-comment">#=&gt; 1</span>
+</pre>
+
+<p>The same is true for constants:</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">A</span>
+  <span class="ruby-constant">Z</span> = <span class="ruby-value">1</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">class</span> <span class="ruby-constant">B</span> <span class="ruby-operator">&lt;</span> <span class="ruby-constant">A</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">z</span>
+    <span class="ruby-constant">Z</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">p</span> <span class="ruby-constant">B</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">z</span> <span class="ruby-comment">#=&gt; 1</span>
+</pre>
+
+<p>You can override the functionality of a superclass method by redefining the method:</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">A</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">m</span>
+    <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">class</span> <span class="ruby-constant">B</span> <span class="ruby-operator">&lt;</span> <span class="ruby-constant">A</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">m</span>
+    <span class="ruby-value">2</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">p</span> <span class="ruby-constant">B</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">m</span> <span class="ruby-comment">#=&gt; 2</span>
+</pre>
+
+<p>If you wish to invoke the superclass functionality from a method use <code>super</code>:</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">A</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">m</span>
+    <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">class</span> <span class="ruby-constant">B</span> <span class="ruby-operator">&lt;</span> <span class="ruby-constant">A</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">m</span>
+    <span class="ruby-value">2</span> <span class="ruby-operator">+</span> <span class="ruby-keyword">super</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">p</span> <span class="ruby-constant">B</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">m</span> <span class="ruby-comment">#=&gt; 3</span>
+</pre>
+
+<p>When used without any arguments <code>super</code> uses the arguments given to the subclass method.  To send no arguments to the superclass method use <code>super()</code>.  To send specific arguments to the superclass method provide them manually like <code>super(2)</code>.</p>
+
+<p><code>super</code> may be called as many times as you like in the subclass method.</p>
+
+<h1 id="label-Singleton+Classes">Singleton Classes<span><a href="#label-Singleton+Classes">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>The singleton class (also known as the metaclass or eigenclass) of an object is a class that holds methods for only that instance.  You can access the singleton class of an object using <code>class &lt;&lt; object</code> like this:</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">C</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">class</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">C</span>
+  <span class="ruby-comment"># self is the singleton class here</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>Most frequently you&#39;ll see the singleton class accessed like this:</p>
+
+<pre class="ruby"><span class="ruby-keyword">class</span> <span class="ruby-constant">C</span>
+  <span class="ruby-keyword">class</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-keyword">self</span>
+    <span class="ruby-comment"># ...</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>This allows definition of methods and attributes on a class (or module) without needing to write <code>def self.my_method</code>.</p>
+
+<p>Since you can open the singleton class of any object this means that this code block:</p>
+
+<pre class="ruby"><span class="ruby-identifier">o</span> = <span class="ruby-constant">Object</span>.<span class="ruby-identifier">new</span>
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">o</span>.<span class="ruby-identifier">my_method</span>
+  <span class="ruby-value">1</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>is equivalent to this code block:</p>
+
+<pre class="ruby"><span class="ruby-identifier">o</span> = <span class="ruby-constant">Object</span>.<span class="ruby-identifier">new</span>
+
+<span class="ruby-keyword">class</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">o</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">my_method</span>
+    <span class="ruby-value">1</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+</pre>
+
+<p>Both objects will have a <code>my_method</code> that returns <code>2</code>.</p>
+
+	</div>
+
+
+                <div id="footer">
+                
+                <p><a href="http://ruby-doc.org">Ruby-doc.org</a> is a service of <a href="http://jamesbritt.com">James Britt</a> and <a href="http://neurogami.com">Neurogami</a>, purveyors of fine dance noise.  <div class='oio-inline'><ins data-revive-zoneid="1" data-revive-id="58924a5717c091dfee6dda3f7d38c4d7"></ins><script async src="//ras.ruby-doc.org/vvv/delivery/thesinkjs.php"></script></div></p>
+
+                
+                <p id="validator-badges"><small>Generated with Rubydoc Rdoc Generator 0.42.0</small>.</p>
+              </div>
+
+
+    
+
+
+</body>
+
+</html>
+
